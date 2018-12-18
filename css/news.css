@@ -1,0 +1,262 @@
+/*    Remesla news page styles    */
+
+/*    Slider styles    */
+
+.slider-news {
+		height: 200px;
+		background: #99b0b7 url('../img/slide-news.png') no-repeat center;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.slide_text {
+		margin: auto;
+		font: 400 10rem 'Floydian Cyr', serif;
+		color: #ffffff;
+	}
+
+
+/*    Main content_news styles    */
+
+.main-content.news {
+	padding-top: ;
+}
+
+	.news-block {
+		margin-top: 35px;
+	}
+
+	.continue__link {
+		display: block;
+		margin-top: 15px;
+
+	}
+
+	.news-block__title {
+		margin-bottom: 15px;
+		font: 3rem 'Exo 2.0 Extra bold', sans-serif;
+		color: #f16028;
+	}
+
+	.news-block__link {
+		text-decoration: none;
+		font: 3rem 'Exo 2.0 Extra bold', sans-serif;
+		color: #f16028;	
+	}
+
+	.news-block__date {
+		font: 1.8rem 'Open Sans regular', sans-serif;
+		color: #bcbcbc;
+	}
+
+	.news-block__text {
+		margin-top: 25px;
+		text-indent: 35px;
+		text-align: justify;
+		font: 1.8rem/2.4rem 'Open Sans regular', sans-serif;
+		color: #000000;	
+	}
+
+	.news-block__text.second {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+
+
+	/*    Pagination styles    */
+
+	.pagination {
+		margin-top: 35px;
+		justify-content: space-between;
+	}
+
+
+	.pagination__link {
+		padding: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		color: #000000;
+	}
+
+		.pagination__link:hover {
+		background: #333333;
+		color: #ffffff;
+	}
+
+	.pagination-list {
+		list-style: none;
+		
+	}
+	
+	.pagination-list__item {
+		width: 20px;
+		height: 20px;
+		margin-right: 7px;
+	}
+
+	.pagination-list__item:last-child {
+		margin-right: 0;
+	}
+
+	.pagination-list__link {
+		width: 20px;
+		height: 20px;
+		padding: 3px;
+		text-decoration: none;
+		color: #000000;
+		border: 1px solid #000000;
+		border-radius: 50%;
+	}
+
+	.pagination-list__link:hover {
+		background: #555555;
+		color: #ffffff;
+	}
+
+/*    News detailed styles    */
+
+.news-detailed__title {
+	margin-bottom: 40px;
+	font: 30px/24px 'Exo 2.0 Extra bold', sans-serif;
+	text-transform: uppercase;
+	color: #f16028;
+}
+
+.news-detailed__date {
+	margin-bottom: 40px;
+	font: 18px/24px 'Open Sans regular', sans-serif;
+	color: #555555;
+}
+
+.news-detailed__text {
+	font: 18px/30px 'Open Sans regular', sans-serif;
+	text-align: justify;
+	text-indent: 35px;
+	color: #000000;
+}
+
+p.news-detailed__text:first-child {
+	margin-top: 40px;
+}
+
+.news-detailed__text.accented {
+	margin-top: 40px;
+	font-weight: 600;
+}
+
+.news-detailed__tags {
+	margin-top: 40px;
+}
+
+.news-detailed__tag {
+	font: 16px/24px 'Open Sans regular', sans-serif;
+	color: #5492cc;
+}
+
+.news-detailed__photo {
+	margin-top: 40px;
+}
+
+
+/*    Mews detailed slider styles    */
+
+.news-slider {
+	position: relative;
+	/*width: 100%;*/
+	height: 150px;
+	margin-top: 40px;
+	padding: 20px 35px;
+	/*border: 2px solid #999999;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#line {
+	position: relative;
+	left: 0;
+	overflow: hidden;
+	/*width: 1250px;*/
+}
+.slide-img__mini {
+	max-width: 245px;
+}
+
+#news-slider__left {
+	position: absolute;
+	top: 40%;
+	left: 7px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 20px solid #cccccc;
+	border-bottom: 20px solid transparent;
+	z-index: 1;
+}
+
+#news-slider__left:hover {
+	border-right: 20px solid #777777;
+	cursor: pointer;
+}
+
+#news-slider__right {
+	position: absolute;
+	top: 40%;
+	right: 7px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #cccccc;
+	border-bottom: 20px solid transparent;
+}
+
+#news-slider__right:hover {
+	border-left: 20px solid #777777;
+	cursor: pointer;
+}
+
+
+
+/*    Aside Recent styles    */
+
+.recent-news__title {
+	margin-top: 3.5rem;
+	margin-bottom: 2.5rem;
+	font: 3rem 'Open Sans bold', sans-serif;
+	color: #97c81e;
+}
+
+.recent-news__date {
+	font: 1.8rem 'Open Sans regular', sans-serif;
+	color: #000000;
+}
+
+.recent-news__text {
+	margin-top: 3.5rem;
+	text-align: justify;
+	font: 1.8rem 'Open Sans regular', sans-serif;
+	color: #000000;	
+}
+
+.recent-news__img {
+	width: 100%;
+	margin-top: 2.5rem;
+}
+
+.more-btn {
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 5.5rem;
+	margin-top: 25px;
+	background: #f16028;
+	font: 1.8rem/2.4rem 'Exo 2.0 Extra bold', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+

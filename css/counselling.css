@@ -1,0 +1,128 @@
+/*    Remesla Psychological counseling page styles    */
+
+/*    Slider styles    */
+
+.slider-counselling {
+		height: 200px;
+		background: #99b0b7 url('../img/slide-counselling.png') no-repeat center;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.slide_text {
+		max-width: 680px;
+		margin: auto;
+		text-align: center;
+		font: 400 7rem 'Floydian Cyr', serif;
+		color: #ffffff;
+	}
+
+
+/*    Main content - counseling styles    */
+
+.main-content.counseling {
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.counseling-block:first-child {
+	margin-top: 0;
+}
+
+.counseling-block {
+	margin-top: 35px;
+}
+
+.counseling-block__content {
+	margin-left: 30px;
+}
+
+.counseling-block__icon {
+	width: 73px;
+	height: 73px;
+}
+
+.counseling-block__icon:first-child {
+	margin-top: 15px;
+}
+
+.counseling-block__icon.glases {
+	background: url('../img/counselling-content-icon__glases.png') no-repeat center;
+}
+
+.counseling-block__icon.pencil {
+	background: url('../img/counselling-content-icon__pencil.png') no-repeat center;
+}
+
+.counseling-block__icon.gear {
+	background: url('../img/counselling-content-icon__gear.png') no-repeat center;
+}
+
+.counseling-block__icon.lamp {
+	background: url('../img/counselling-content-icon__lamp.png') no-repeat center;
+}
+
+.counseling-block__icon.brush {
+	background: url('../img/counselling-content-icon__brush.png') no-repeat center;
+}
+
+.counseling-block__title {
+	max-width: 600px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font: 30px 'Exo 2.0 Extra bold', sans-serif;
+	color: #19421e;
+}
+
+.counseling-block__title:first-child {
+	margin-top: 30px;
+}
+
+.counseling-block__text {
+	max-width: 600px;
+	margin-top: 20px;
+	font: 18px 'Open Sans regular', sans-serif;
+	color: #000000;	
+}
+
+
+/*    Aside Experts styles    */
+
+aside.experts {
+	border-color: #181818;
+}
+
+.expert-photo {
+	display: block;
+	width: 332px;
+	margin-top: 35px;
+}
+
+.exert-name {
+	margin-top: 15px;
+	text-transform: uppercase;
+	font: 600 24px 'Exo 2.0 Extra bold', sans-serif;
+	color: #19421e;
+}
+
+.expert-job {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font: 18px 'Open Sans bold', sans-serif;
+	color: #f26128;
+}
+
+.expert-description {
+	margin-top: 25px;
+	font: 18px 'Open Sans regular', sans-serif;
+	color: #000000;
+}
+
+.expert__link {
+	margin-top: auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 18px 'Open Sans bold', sans-serif;
+	color: #a7b1a8;
+}
+

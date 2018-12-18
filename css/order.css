@@ -1,0 +1,145 @@
+/*    Remesla Order page styles    */
+
+/*    Slider styles    */
+
+.slider-craftrooms {
+		height: 200px;
+		background: #99b0b7 url('../img/Slide-Order.png') no-repeat center;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.slide_text {
+		max-width: 680px;
+		margin: auto;
+		text-align: center;
+		font: 400 7.2rem 'Floydian Cyr', serif;
+		color: #ffffff;
+	}
+
+
+/*    Main content - Order styles    */
+
+.order__title {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font: 600 30px 'Exo 2.0 Extra bold', sans-serif;
+	color: #000000;	
+}
+
+.order__title.contras {
+	margin-top: 100px;
+}
+
+.order-docsuments__text, 
+.order-documents__item, 
+.order-contras__text, 
+.order-contras__item {
+	font: 19px 'Open Sans regular', sans-serif;
+	color: #000000;
+	line-height: 2;
+}
+
+
+.order-documents__item, .order-contras__item {
+	list-style-type: none;
+}
+
+.order-documents__item::before, .order-contras__item::before {
+	content: '-';
+	margin-right: 5px;
+}
+
+
+/*    Aside Experts styles    */
+
+aside.consult {
+	position: relative;
+	border-color: #181818;
+}
+
+.expert-photo {
+	width: 100%;
+	margin-top: 35px;
+}
+
+.exert-name {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font: 600 24px 'Exo 2.0 Extra bold', sans-serif;
+	color: #19421e;
+}
+
+.expert-job {
+	text-transform: uppercase;
+	font: 18px 'Open Sans bold', sans-serif;
+	color: #f26128;
+}
+
+.expert-description {
+	margin-top: 25px;
+	margin-bottom: 35px;
+	font: 18px 'Open Sans regular', sans-serif;
+	color: #000000;
+}
+
+a.expert__reading {
+	margin-top: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 18px 'Open Sans bold', sans-serif;
+	color: #a7b1a8;
+}
+
+.print-btn {
+	position: absolute;
+	bottom: -140px;
+	left: 0;
+	margin-top: 35px;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 100%;
+	height: 120px;
+	background: #19421e;
+	color: #ffffff;
+}
+
+.call-btn {
+	position: absolute;
+	bottom: -275px;
+	left: 0;
+	margin-top: 35px;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 100%;
+	height: 120px;
+	background: #f26128;
+	color: #ffffff;
+}
+
+.print-btn__text {
+	text-align: center;	
+	font: 24px 'Open Sans bold', sans-serif;
+	text-transform: uppercase;
+}
+
+.call-btn__text {
+	font: 18px 'Open Sans bold', sans-serif;
+	letter-spacing: .04em;
+	color: #f9bbab;
+}
+
+.call-btn__number {
+	margin-top: 0;
+	font: 42px 'Open Sans bold', sans-serif;
+	color: #ffffff;
+}
+
+footer.footer {
+	margin-top: 240px;
+}
